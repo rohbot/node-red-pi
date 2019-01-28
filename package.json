@@ -1,0 +1,12 @@
+{
+    "name": "node-red-pi",
+    "description": "node-red instance running on pi",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_rohpi.json",
+            "credentialsFile": "flows_rohpi_cred.json"
+        }
+    }
+}
